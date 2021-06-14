@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    height:100vh;
+    background-image: url('headphones.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow:hidden;
+    background-color:transparent;
+}
+
+li{
+    float:right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #e23e57;
+}
+
+.content{
+    margin-top: 100px;
+    margin-left:100px;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color:#e23e57;
+    padding-bottom: 20px;
+    animation: moveInRight 2s ease-out;
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateY(-180px); }
+    60% {
+        transform: translateY(20px); }
+    100% {
+        opacity: 1;
+        transform: translate(0); 
+    } 
+}
+
+p{
+    color:#fff;
+    font-size: 20px;
+    font-family:cursive;
+    letter-spacing: 3px;
+}
+
+button{
+margin-top: 20px;
+width: 150px;
+padding:15px;
+border:none;
+border-radius: 50px;
+background:linear-gradient(to right, #b92037 , #a55662)
+}
+
+h2{
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color:#e23e57;
+    padding-bottom: 20px;
+}
+
+#about{
+    height:60vh;
+    margin:30px;
+    padding:30px;
+}
+.about_details{
+    float:left;
+}
+.about_details p{
+    width:50vw;
+    color:black;
+}
+.about_img{
+    float:right;
+    outline: 2px solid black;
+}
+.about_img img:hover{
+    transform: scale(1.2);
+    outline: 2px solid black;
+}
+
+#pricing{
+    height:70vh;
+    margin:30px;
+    padding:30px;
+    background-color: #f2d5d9;
+}
+
+#pricing h2{
+    margin-left:450px;
+}
+
+.pricing_img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.princing_img{
+    width:250px;
+    height:250px;
+   
+}
+
+.pricing_img_1 img{
+    width:225px;
+    height:225px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+#pricing button{
+    margin-left:40px;
+}
+
+.contact{
+    height:40vh;
+    margin:30px;
+    padding:30px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.contact h2{
+    margin-left:400px;
+}
+
+.contact_form{
+    float:left;
+    background-color: #f2d5d9;
+    width:600px;
+    height:450px;
+    margin:auto;
+    position: relative;
+    border-radius:35px;
+    box-shadow: 0 3px 15px 0 #df2670;
+}
+
+input{
+    margin-bottom: 20px;
+    padding:10px;
+    border:none;
+    border-radius: 30px;
+}
+
+textarea{
+    border:none;
+    text-align: left;
+    padding:10px;
+    border-radius: 30px;
+}
+.phone{
+    padding-left: 22px;
+}
+.contact-map{
+    float:right;
+    background-color: black;
+}
+
+iframe{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.footer{
+    height:5vh;
+    margin-top:30px;
+    padding:30px;
+    background-color: black;
+    margin-top: 400px;
+}
+
+.footer h5{
+    color:#e23e57;
+    font-size: 20px;
+    text-align: center;
+}
+
